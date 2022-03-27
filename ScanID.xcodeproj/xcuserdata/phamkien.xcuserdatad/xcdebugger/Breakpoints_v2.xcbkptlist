@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "514A53C5-AF87-4E8F-AFDD-47754777A15E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23B7DB63-1454-4D2B-BF6D-CB4E6D14F8C6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScanID/Screen/Camera/ScanIDCameraVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82BDCEBA-F256-4D39-B3E9-B9DC3B595541"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScanID/Screen/Camera/ScanIDCameraVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FDE6961-5783-4D77-B66C-F20C9514EE86"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScanID/Base/BaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "initWithNib()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0FDE6961-5783-4D77-B66C-F20C9514EE86 - 3dca4dbbf9959e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static ScanID.BaseViewController.initWithNib() -&gt; Self"
+                  moduleName = "ScanID"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamkien/ScanID/ScanID/Base/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1232">
+               </Location>
+               <Location
+                  uuid = "0FDE6961-5783-4D77-B66C-F20C9514EE86 - 3dca4dbbf9959e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static ScanID.BaseViewController.initWithNib() -&gt; Self"
+                  moduleName = "ScanID"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamkien/ScanID/ScanID/Base/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1108">
+               </Location>
+               <Location
+                  uuid = "0FDE6961-5783-4D77-B66C-F20C9514EE86 - 3dca4dbbf9959e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static ScanID.BaseViewController.initWithNib() -&gt; Self"
+                  moduleName = "ScanID"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamkien/ScanID/ScanID/Base/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79729244-8BED-4E78-983F-2458BA1A4A02"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScanID/Base/BaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "initWithNib()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "79729244-8BED-4E78-983F-2458BA1A4A02 - 3dca4dbbf9959e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static ScanID.BaseViewController.initWithNib() -&gt; Self"
+                  moduleName = "ScanID"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamkien/ScanID/ScanID/Base/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1232">
+               </Location>
+               <Location
+                  uuid = "79729244-8BED-4E78-983F-2458BA1A4A02 - 3dca4dbbf9959e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static ScanID.BaseViewController.initWithNib() -&gt; Self"
+                  moduleName = "ScanID"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamkien/ScanID/ScanID/Base/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1108">
+               </Location>
+               <Location
+                  uuid = "79729244-8BED-4E78-983F-2458BA1A4A02 - 3dca4dbbf9959e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static ScanID.BaseViewController.initWithNib() -&gt; Self"
+                  moduleName = "ScanID"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamkien/ScanID/ScanID/Base/BaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24AC7A2E-3AF7-4C31-82BE-711CCFB693F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ScanID/Base/BaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "initWihtNibTemplate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

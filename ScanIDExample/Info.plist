@@ -17,9 +17,13 @@
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
 					<string>Main</string>
+					<key>NSCameraUsageDescription</key>
+					<string>Camera usage description</string>
 				</dict>
 			</array>
 		</dict>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Whath the hell</string>
 </dict>
 </plist>

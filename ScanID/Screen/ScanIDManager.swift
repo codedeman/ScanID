@@ -12,10 +12,22 @@ protocol ScanIDProtocol:AnyObject {
 }
 public class ScanIDManager {
     
-    public init() {}
+    public init() {
+        
+        
+        
+        if let fileURL = Bundle.main.url(forResource: "ScanIDResource", withExtension: "bundle") {
+            print("file url ----- \(fileURL)")
+            // we found the file in our bundle!
+        } else {
+            print("not found")
+        }
+    }
 //    let share:ScanIDManager = ScanIDManager()
     public func  showVC(viewController:UIViewController) {
-        let scanVC = ScanIDCameraVC.initWithNib()
+        
+        let scanVC = ScanIDCameraVC()
+        scanVC.modalPresentationStyle = .fullScreen
         viewController.present(scanVC, animated: true, completion: nil)
     }
 }

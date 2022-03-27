@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func didTabOpenSdkBtn(_ sender: Any) {
+        
+//        let nav = UINavigationController(rootViewController: self)
         let scanID = ScanIDManager()
         scanID.showVC(viewController: self)
     }

@@ -46,17 +46,21 @@ class BaseViewController: UIViewController {
     
 
     class func initWithNib() -> Self {
+        let bundlePath = Bundle.main.path(forResource: "ScanIDResource", ofType: "bundle")
         
+//        let resourceBundle = Bundle.init(path: bundlePath!)
         
         
         var  bundlerPath = Bundle(for: self)
         if  let url  = bundlerPath.url(forResource: "ScanIDResource", withExtension: "bundle") {
             bundlerPath = Bundle(url: url) ?? .main
+        } else {
+            print("not found")
+
         }
-        print("over here",bundlerPath)
             
             
-    
+//
 //        if let bundlePath = Bundle.main.path(forResource: "ScanIDResource", ofType: "bundle"),
 //            let bundle = Bundle(path: bundlePath),
 //            let path = bundle.path(forResource: "...", ofType: nil) {
@@ -66,6 +70,7 @@ class BaseViewController: UIViewController {
 //        } else {
 //            print("not found")
 //        }
+    
         
         let bundle = bundlerPath
         let fileManege = FileManager.default

@@ -22,6 +22,7 @@
 		3033034827EF471F00FFED89 /* ScanIDExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033034727EF471E00FFED89 /* ScanIDExampleUITestsLaunchTests.swift */; };
 		3033035A27EF47D300FFED89 /* ScanIDCameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033035827EF47D300FFED89 /* ScanIDCameraVC.swift */; };
 		309BBE8E27F09E0700C8736B /* ScanIDCameraComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309BBE8D27F09E0700C8736B /* ScanIDCameraComponent.swift */; };
+		309BBE9127F0A21000C8736B /* AppComon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309BBE9027F0A21000C8736B /* AppComon.swift */; };
 		30CA4A7027F0187B008B2674 /* ScanID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3033030427EF46AA00FFED89 /* ScanID.framework */; };
 		30CA4A7627F01AFD008B2674 /* ScanIDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA4A7527F01AFD008B2674 /* ScanIDManager.swift */; };
 		30CA4A7927F04181008B2674 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CA4A7827F04181008B2674 /* BaseViewController.swift */; };
@@ -87,6 +88,7 @@
 		3033034727EF471E00FFED89 /* ScanIDExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanIDExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3033035827EF47D300FFED89 /* ScanIDCameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanIDCameraVC.swift; sourceTree = "<group>"; };
 		309BBE8D27F09E0700C8736B /* ScanIDCameraComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanIDCameraComponent.swift; sourceTree = "<group>"; };
+		309BBE9027F0A21000C8736B /* AppComon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComon.swift; sourceTree = "<group>"; };
 		30CA4A7527F01AFD008B2674 /* ScanIDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanIDManager.swift; sourceTree = "<group>"; };
 		30CA4A7827F04181008B2674 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		30CA4A8927F0469B008B2674 /* ScanIDResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanIDResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -247,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				30CA4A7827F04181008B2674 /* BaseViewController.swift */,
+				309BBE9027F0A21000C8736B /* AppComon.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 			files = (
 				3033030927EF46AA00FFED89 /* ScanID.docc in Sources */,
 				309BBE8E27F09E0700C8736B /* ScanIDCameraComponent.swift in Sources */,
+				309BBE9127F0A21000C8736B /* AppComon.swift in Sources */,
 				30CA4A7927F04181008B2674 /* BaseViewController.swift in Sources */,
 				30CA4A7627F01AFD008B2674 /* ScanIDManager.swift in Sources */,
 				3033035A27EF47D300FFED89 /* ScanIDCameraVC.swift in Sources */,

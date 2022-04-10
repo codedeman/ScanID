@@ -12,14 +12,15 @@ extension ScanIDCameraVC {
     //MARK:- View Setup
     func setupView(){
        view.backgroundColor = .black
-       view.addSubview(switchCameraButton)
+//       view.addSubview(viewCapture)
+        
 //       view.addSubview(captureImageButton)
 //       view.addSubview(capturedImageView)
 //       NSLayoutConstraint.activate([
-//           switchCameraButton.widthAnchor.constraint(equalToConstant: 30),
-//           switchCameraButton.heightAnchor.constraint(equalToConstant: 30),
-//           switchCameraButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
-//           switchCameraButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -10),
+//        viewCapture.widthAnchor.constraint(equalToConstant: 200),
+//        viewCapture.heightAnchor.constraint(equalToConstant: 300),
+//        viewCapture.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 10),
+//        viewCapture.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -10),])
 //
 //           captureImageButton.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
 //           captureImageButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -10),

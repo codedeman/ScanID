@@ -42,7 +42,14 @@ class ScanIDCameraVC: BaseViewController {
         return button
     }()
     
-    let view
+    let viewCapture:UIView = {
+        let view = UIView()
+        view.backgroundColor = .red
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+    
+//    let view
 //    let capturedImageView = CapturedImageView()
     
     //MARK:- Life Cycle
@@ -142,13 +149,39 @@ class ScanIDCameraVC: BaseViewController {
     
     func setupPreviewLayer(){
         previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
-        view.layer.addSublayer(previewLayer)
-        previewLayer.frame = CGRect(x: 0, y: 0, width:AppComon.screenWidth , height: AppComon.screenHeight)
-        self.drawRectangel()
+        view.layer.insertSublayer(previewLayer, at: 0)
+        
+        
+        let path = UIBezierPath(rect:CGRect(x: 20, y: 0, width: AppComon.screenWidth-20*2, height: 300))
+        
+        
+        path.move(to: CGPoint(x: 0, y: 0))
+        path.addLine(to: CGPoint(x: 200, y: 0))
+        path.addLine(to: CGPoint(x: 200, y: 200))
+        path.addLine(to: CGPoint(x: 0, y: 200))
+        path.addLine(to: CGPoint(x: 0, y: 0))
+        
+        let shapeLayer = CAShapeLayer()
+        shapeLayer.path = path.cgPath
+
+        shapeLayer.strokeColor = UIColor.black.cgColor
+        shapeLayer.fillColor = UIColor.clear.cgColor
+        shapeLayer.lineWidth = 3
+
+        shapeLayer.frame = CGRect(x: 0, y: 0, width: AppComon.screenWidth, height: AppComon.screenHeight)
+        shapeLayer.path = path.cgPath
+        shapeLayer.backgroundColor = UIColor.black.withAlphaComponent(0.7).cgColor
+        
+        
+        view.layer.insertSublayer(shapeLayer, at: 1)
+
+
+        previewLayer.frame = self.view.frame
+//        self.drawRectangel()
     }
     
     private func drawRectangel() {
-        let path = UIBezierPath(rect:CGRect(x: self.view.center.x, y: self.view.center.y, width: AppComon.screenWidth-20*2, height: 300))
+        let path = UIBezierPath(rect:CGRect(x: 20, y: 0, width: AppComon.screenWidth-20*2, height: 300))
         
 //        UIBezierPath(ovalIn: CGRect(x: 20, y: 100, width: AppComon.screenWidth-20*2, height: 300))
         
@@ -167,8 +200,9 @@ class ScanIDCameraVC: BaseViewController {
         shapeLayer.position = self.view.center
         
         
+        
 
-        self.view.layer.addSublayer(shapeLayer)
+        self.view.layer.insertSublayer(shapeLayer, at: 1)
 //        shapeLayer.frame = CGRect(x: 0, y: 0, width: (AppComon.screenWidth-20)*2, height: 200)
 
         
